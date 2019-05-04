@@ -1,2 +1,1 @@
-httpdocs/Content* linguist-vendored
-httpdocs/Scripts* linguist-vendored
+httpdocs/Views/* linguist-vendored
