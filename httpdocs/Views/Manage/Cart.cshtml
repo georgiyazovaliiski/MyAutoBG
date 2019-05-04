@@ -1,0 +1,74 @@
+﻿@model AutoPartsMVC.Models.cartViewModel
+<br /><br />
+<h1>Количка</h1>
+<table class="table">
+    <tr>
+        <th>
+            <span>Продукт</span>
+        </th>
+        <th>
+            <span>Цена</span>
+        </th>
+        <th>
+            <span>Подробности</span>
+        </th>
+        <th>
+            <span>Количество</span>
+        </th>
+        <th>
+            <span>Общо</span>
+        </th>
+        <th>
+
+        </th>
+    </tr>
+
+@foreach (var item in Model.Products) {
+    <tr>
+        <td>
+                        @Html.DisplayFor(modelItem => item.Key.Name)
+                        @Html.DisplayFor(modelItem => item.Key.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Key.Price) лв
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Key.Description)
+        </td>
+        <td>
+            <input type="number" id="edit-@item.Key.Id" value="@Html.DisplayFor(modelItem => item.Value)" />
+        </td>
+        <td>
+            @(item.Value * item.Key.Price) лв
+        </td>
+        <td>
+            <a class="btn btn-danger" href="@Url.Action("DeleteProductInCart", "Shared", new { productId = item.Key.Id })" onclick="return confirm('Сигурен ли си?')">X</a>
+            <button class="btn btn-info" id="editProduct" onclick="editProduct(@item.Key.Id)">Промени</button>
+        </td>
+    </tr>
+}
+    <tr>
+        <td colspan="6">
+            Общо: @Model.Whole лв
+        </td>
+    </tr>
+</table>
+<a class="btn btn-primary" href="#">Завърши поръчката</a>
+<br /><br />
+<script>
+    function editProduct(entry) {
+        var t = $("#edit-" + entry).val();
+        alert($("#edit-" + entry).val());
+
+        $.ajax({
+            url: '/Shared/EditProduct',
+            type: 'POST',
+            data: JSON.stringify({
+                productId: entry,
+                val: t
+            }),
+            dataType: 'json',
+            contentType: 'application/json; charset=utf-8'
+        });
+    }
+</script>

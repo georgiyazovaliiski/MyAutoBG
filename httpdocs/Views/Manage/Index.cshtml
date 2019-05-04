@@ -1,0 +1,55 @@
+﻿@model AutoPartsMVC.Models.IndexViewModel
+@{
+    ViewBag.Title = "Профил";
+}
+<div class="container">
+    @if (User.IsInRole("AppAdmin"))
+    {
+        <h1>Категории</h1>
+        <a class="btn btn-primary" href="@Url.Action("Create","Categories")">Създай категория</a>
+        <a class="btn btn-primary" href="@Url.Action("Index","Categories")">Всички категории</a>
+        <br />
+        <br />
+        <h1>Продукти</h1>
+        <a class="btn btn-primary" href="@Url.Action("Create","Products")">Създай продукт</a>
+        <a class="btn btn-primary" href="@Url.Action("Index","Products")">Всички продукти</a>
+        <br />
+        <br />
+        <h1>Промоции</h1>
+        <a class="btn btn-primary" href="@Url.Action("Create","Promoes")">Създай промоция</a>
+        <a class="btn btn-primary" href="@Url.Action("Index","Promoes")">Всички промоции</a>
+        <br />
+        <br />
+        <h1>Поръчки</h1>
+        <a class="btn btn-primary" href="@Url.Action("WaitingApprovalOrders","Orders")">Чакащи одобрение</a>
+        <a class="btn btn-primary" href="@Url.Action("WaitingOrders","Orders")">Чакащи поръчки</a>
+        <a class="btn btn-primary" href="@Url.Action("DoneOrders","Orders")">Изпълнени</a>
+        <br />
+        <br />
+        <h1>Снимки</h1>
+        <a class="btn btn-primary" href="@Url.Action("addPictureToProduct","Products")">Добави снимки в продукти</a>
+        <br />
+        <br />
+        <h1>Продукти от потребители</h1>
+        <a class="btn btn-primary" href="@Url.Action("FromUsers","Products", new { Type = "Approved" })">Одобрени</a>
+        <a class="btn btn-primary" href="@Url.Action("FromUsers","Products", new { Type = "WaitingApproval" })" >Чакащи одобрение</a>
+    }
+    <div>
+        <br />
+        <a class="btn btn-success" href="@Url.Action("YourOrders","Orders")">Твоите поръчки</a>
+        <br />
+        <hr />
+        <dl class="dl-horizontal">
+                
+                @if (Model.HasPassword)
+            {
+                    <a class="btn btn-primary" href="@Url.Action("ChangePassword")">Промени паролата си</a>
+                }
+                else
+                {
+                    @Html.ActionLink("Създай парола", "SetPassword")
+                }
+                
+        </dl>
+    </div>
+</div>

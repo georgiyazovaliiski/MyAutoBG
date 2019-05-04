@@ -1,0 +1,238 @@
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\ApplicationInsights.config
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\csc.exe
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\csc.exe.config
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\csc.rsp
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\csi.exe
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\csi.rsp
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\System.AppContext.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\System.IO.FileSystem.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\vbc.exe
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\vbc.exe.config
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\vbc.rsp
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\VBCSCompiler.exe
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\AutoPartsMVC.dll.config
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\AutoPartsMVC.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\AutoPartsMVC.pdb
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Antlr3.Runtime.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\EntityFramework.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\EntityFramework.SqlServer.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.Web.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.ApplicationInsights.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.Google.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Newtonsoft.Json.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Owin.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.Helpers.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.Mvc.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.Optimization.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.Razor.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.WebPages.Deployment.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.WebPages.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.WebPages.Razor.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\WebGrease.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.Helpers.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.Mvc.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.Optimization.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.Razor.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.WebPages.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.WebPages.Deployment.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\System.Web.WebPages.Razor.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Antlr3.Runtime.pdb
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Newtonsoft.Json.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\EntityFramework.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\EntityFramework.SqlServer.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.Google.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.ApplicationInsights.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\Microsoft.AI.Web.xml
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.csprojResolveAssemblyReference.cache
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.pdb
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.specialOffers.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.csproj.GenerateResource.Cache
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.update.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.nowworks.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.fix.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.newfix.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.almostfinal.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\bin\en\AutoPartsMVC.resources.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Properties.Resources.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Properties.Resources.en.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\en\AutoPartsMVC.resources.dll
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.addedMoreFieldsAndClasses.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.someMoreFields.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.ttt.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.removeuniqueincategories.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.removeDescriptions.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.removedalldescription.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.yeah.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.ChangesToProductsAndNewModelImported.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.addedTableProductsFromClients.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.TBTHierarchy.resources
+D:\WebProjects\AutoPartsMVC\AutoPartsMVC\AutoPartsMVC\obj\Debug\AutoPartsMVC.Migrations.AddedFields.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\ApplicationInsights.config
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\AutoPartsMVC.dll.config
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\AutoPartsMVC.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\AutoPartsMVC.pdb
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\en\AutoPartsMVC.resources.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Antlr3.Runtime.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\EntityFramework.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\EntityFramework.SqlServer.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.DependencyCollector.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.Web.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.WindowsServer.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.ApplicationInsights.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.Google.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Web.Infrastructure.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Newtonsoft.Json.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Owin.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.Helpers.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.Mvc.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.Optimization.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.Razor.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.WebPages.Deployment.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.WebPages.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.WebPages.Razor.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\WebGrease.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.Helpers.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.Mvc.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.Optimization.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.Razor.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.WebPages.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.WebPages.Deployment.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\System.Web.WebPages.Razor.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Antlr3.Runtime.pdb
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Newtonsoft.Json.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\EntityFramework.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\EntityFramework.SqlServer.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.Google.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.ApplicationInsights.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.DependencyCollector.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.WindowsServer.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\Microsoft.AI.Web.xml
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.csprojAssemblyReference.cache
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.specialOffers.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.update.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.nowworks.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.fix.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.newfix.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.almostfinal.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.addedMoreFieldsAndClasses.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.someMoreFields.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.ttt.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.removeuniqueincategories.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.removeDescriptions.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.removedalldescription.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.yeah.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.ChangesToProductsAndNewModelImported.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.addedTableProductsFromClients.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.TBTHierarchy.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Migrations.AddedFields.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Properties.Resources.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.Properties.Resources.en.resources
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.csproj.GenerateResource.cache
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.csproj.CoreCompileInputs.cache
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\en\AutoPartsMVC.resources.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.csproj.CopyComplete
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\obj\Debug\AutoPartsMVC.pdb
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\csc.exe
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\csc.exe.config
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\csc.rsp
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\csi.exe
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\csi.rsp
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\System.AppContext.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\System.Collections.Immutable.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\System.IO.FileSystem.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\System.Reflection.Metadata.dll
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\vbc.exe
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\vbc.exe.config
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\vbc.rsp
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\VBCSCompiler.exe
+D:\Web Projects\MyAutoBG - MVC\httpdocs\bin\roslyn\VBCSCompiler.exe.config

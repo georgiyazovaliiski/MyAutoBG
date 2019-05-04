@@ -1,0 +1,19 @@
+﻿@model AutoPartsMVC.Models.ProductAndPictures
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+                    <h2><u>@Model.Product</u></h2>
+            <br />
+            <div class="row">
+                @foreach (var p in Model.Pictures)
+                {
+                    <div class="col-md-4">
+                        <img class="img-thumbnail" src="~/Content/img/@p.UrlPictureName" /><a class="btn btn-primary" href="@Url.Action("RemovePictureFromProduct","Products", new { id = p.Id })">Премахни</a>
+                    </div>
+                }
+            </div>
+            <br />
+            
+        </div>
+    </div>
+</div>

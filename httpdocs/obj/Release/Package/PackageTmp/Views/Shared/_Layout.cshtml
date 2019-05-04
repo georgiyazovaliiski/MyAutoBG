@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/vegas.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="~/Content/heroic-features.css" rel="stylesheet">
+    <link href="~/Content/bottom-menu.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+
+            <!--<div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>Html.ActionLink("About", "About", "Home")</li>
+                    <li>Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+                Html.Partial("_LoginPartial")
+            </div>-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="@Url.Action("Index","Home")">Начало <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index","Catalogue")">Каталог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Условия за доставка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакти</a>
+                    </li>
+
+                    @Html.Partial("_LoginPartial")
+                </ul>
+                <form class="form-inline my-2 my-lg-0" id="search-button-form">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" style="border-radius:10px 0px 0px 10px" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-radius:0 10px 10px 0px; color:#ff8c1a; border:1px solid #ff8c1a"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="special-for-bg">
+        <p>Безплатна доставка до Български градове!</p>
+    </div>
+    <!-- Jumbotron Header -->
+    <header class="jumbotron" id="jumbo">
+        <div id="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <img src="~/Content/img/logo.png" style="width:100px; height:100px;display:inline-block" />
+                        <h3 class="display-3" style="position:absolute;margin-top:20px;margin-left:20px;display:inline-block">Car Boost</h3>
+                        <!--<a href="#" class="btn btn-primary btn-lg customised">Каталог</a>-->
+                    </div>
+                    <div class="col-md-4">
+                        <p class="paratext">Безплатна доставка на всички продукти с български пощи</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navigation -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="" id="bottom-menu">
+                    <ul class="bottom-dropdown-menu">
+                        <li><a href="#" id="home-button"><i class="fa fa-home"></i></a></li><!--
+                        -->@Html.Action("SharedBottomMenu","Shared")
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <br>
+        @RenderBody()
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; Името на сайта @DateTime.Now.Year</p>
+            </div>
+            <!-- /.container -->
+        </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <!--  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>-->
+    <script src="~/Scripts/vegas.js"></script>
+    <script src="~/Scripts/bottom-menu-script.js"></script>
+    <script src="~/Scripts/vegas-video.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

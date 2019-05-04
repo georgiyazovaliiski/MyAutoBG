@@ -1,0 +1,145 @@
+/*!
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+}
+
+
+#jumbo{
+  border-radius: 0;
+  margin-bottom:0;
+  background: white;
+  margin:auto;
+  padding-bottom:100px;
+}
+
+#jumbo h3{
+  font-size: 3em;
+  color:white;
+  font-weight:bold;
+}
+.price{
+  color:#ff9900
+}
+.promo{
+  font-size:0.7em;
+}
+#overlay{
+}
+#products img{
+  max-width: 100%;
+  height:200px;
+}
+.right-section-button {
+  width:100%;
+  word-break: break-all;
+}
+.product-header  span {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.product-header  span:hover {
+  color: #000;
+}
+.product-header span:before{
+  content: "";
+position: absolute;
+text-align: center;
+width: 100%;
+height: 2px;
+bottom: 0px;
+left: 0;
+background-color: #000;
+visibility: hidden;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+}
+.product-header span:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.product-header {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+#top-nav{
+  background: #404040;
+  border-top: 2px solid #8a4500;
+}
+#top-nav ul{
+}
+
+#top-nav .left li{
+
+  list-style: none;
+  color:white;
+}
+#top-nav .right li{
+
+  list-style: none;
+  color:white;
+}
+#search-form .form-group input{
+  height:40px;
+}
+
+#special-for-bg{
+  text-align: center;
+  font-weight: bold;
+  color:yellow;
+  position:absolute;
+  z-index: 3000;
+  width:100%;
+  font-size:20px;
+  top:30px;
+  display: none
+}
+#search-button-form button:hover .fa-search{
+  color: white; !important
+}
+#search-button-form button:hover{
+  background: #ff8c1a
+}
+.paratext{
+  font-weight: bold;
+  font-size:1.3em;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  color:#ffe066;
+
+}
+@media (max-width: 992px) {
+    body {
+    }
+    .bottom-dropdown-menu{
+      margin:0;
+    }
+    .bottom-dropdown-menu li{
+      display: block;
+      width:100%;
+    }
+    .bottom-dropdown-menu li a{
+      width: 100%
+    }
+    .options{
+      max-width:100%;
+    }
+    .options ul{
+
+        max-width:100%;
+    }
+    #overlay .col-md-8{
+      text-align: center;
+    }
+    #overlay .col-md-8 h3{
+      display: block;
+    }
+}

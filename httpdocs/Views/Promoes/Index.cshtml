@@ -1,0 +1,39 @@
+﻿@model List<AutoPartsMVC.Models.Product>
+
+@{
+    ViewBag.Title = "Промоции";
+}
+<div class="middle">
+    <h2>Промоции</h2>
+
+    <p>
+        @Html.ActionLink("Направи промоция", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Номер
+            </th>
+            <th>
+                Име
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Изтрий", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

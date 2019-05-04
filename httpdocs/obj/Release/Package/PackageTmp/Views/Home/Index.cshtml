@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+          <!-- Page Content -->
+<div class="container">
+    <!-- Page Features -->
+    <div class="row">
+        <h1>@Server.MapPath("~").ToString();</h1>
+        <div class="col-md-9">
+            <div class="row text-center" id="products">
+                @Html.Action("Promoes", "Shared")
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h1 class="product-header"><span>Публикувай авточасти тук!</span></h1><br>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Въведи email">
+                                    <small id="emailHelp" class="form-text text-muted">Никога няма да използваме вашите данни за неправилни неща.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Име</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Въведи име">
+                                </div>
+                                <!--
+                                  <div class="form-group">
+                                  <label for="exampleSelect1">Example select</label>
+                                  <select class="form-control" id="exampleSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                </div>
+                                  <div class="form-group">
+                                  <label for="exampleSelect2">Example multiple select</label>
+                                  <select multiple class="form-control" id="exampleSelect2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                  </div>-->
+                                <div class="form-group">
+                                    <label for="exampleTextarea">Описание</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Снимка</label>
+                                    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                                    <small id="fileHelp" class="form-text text-muted"></small>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Качи</button>
+                            </form>
+                        </div>
+                    </div><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="product-header"><span>Специални оферти</span></h1><br>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/img/9.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Продукт 4 <span class="price promo">ПРОМО</span></h4>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary right-section-button">Разгледай</a>
+                    </div>
+                </div><br>
+                <div class="card">
+                    <img class="card-img-top" src="~/Content/img/9.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Продукт 4 <span class="price promo">ПРОМО</span></h4>
+                        <p class="card-text"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary right-section-button">Разгледай</a>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>

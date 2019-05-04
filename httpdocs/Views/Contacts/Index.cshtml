@@ -1,0 +1,57 @@
+﻿@{ 
+    ViewBag.Title = AutoPartsMVC.Properties.Resources.Contacts;
+}
+<div class="container">
+        <h1 class="text-center">@AutoPartsMVC.Properties.Resources.Contacts</h1>
+        <p class="text-center">@AutoPartsMVC.Properties.Resources.FindUs</p>
+        <br>
+        <div class="row text-center">
+            <div class="col-md-4 text-center" style="margin:auto">
+                <div class="card">
+                    <div class="card-block">
+                        <br />
+                        <br />
+                        <h3 style="line-height:100%;"><i class="fa fa-envelope fa-1x" style="line-height:6%;color:rgb(255, 51, 0)"></i> E-Mail:</h3>
+                        <p style="margin-top:6%;line-height:100%; font-size:1.1em">pbautoglobal@gmail.com</p>
+                        <br />
+                        <br />
+                        <h3 style="line-height:100%;"><i class="fa fa-user fa-1x" style="line-height:6%;color:rgb(255, 51, 0)"></i> @AutoPartsMVC.Properties.Resources.ContactPhone:</h3>
+                        <p style="margin-top:6%;line-height:100%; font-size:1.1em">+359 876 689 449</p>
+                        <br />
+                        <br />
+                        <h3 style="line-height:100%;"><a href="https://www.facebook.com/myautobgglobal/"><img src="~/Content/img/fblink.png" style="width:80%"/></a></h3>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+                <br /><br />
+            </div><!--
+            <div class="col-md-8">
+                <div id="map2" style="
+ height: 560px;
+   width: 100%;
+  ">
+                </div>
+                <br><br>
+                <br><br>
+            </div>-->
+        </div>
+    </div>
+
+<script>
+    function initMap() {
+        var uluru = { lat: 42.697904, lng: 23.319273 };
+        var map = new google.maps.Map(document.getElementById('map2'), {
+            zoom: 18,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwZ9yqv_QsxYVRWW68twU4Svmo65pAetI&callback=initMap">
+</script>

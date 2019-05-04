@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "form-inline" }))
+    {
+    @Html.AntiForgeryToken()
+        
+        <li class="nav-item">
+            @Html.ActionLink(AutoPartsMVC.Properties.Resources.Profile, "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class="nav-link" })
+        </li>
+        <li class="nav-item">
+            <a href="javascript:document.getElementById('logoutForm').submit()" class="nav-link">@AutoPartsMVC.Properties.Resources.Logout</a>
+        </li>
+    }
+}
+else
+{
+        <li class="nav-item">@Html.ActionLink(AutoPartsMVC.Properties.Resources.Login, "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "nav-link" })</li>
+}

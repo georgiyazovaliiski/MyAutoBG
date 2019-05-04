@@ -1,0 +1,27 @@
+﻿<h1>Поръчки чакащи одобрение</h1>
+<table class="table table-striped table-bordered table-list">
+    <thead>
+        <tr>
+            <th>Номер на поръчката</th>
+            <th>Име</th>
+            <th>Телефон</th>
+            <th>Адрес</th>
+            <th>Дата на поръчката</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>@i.Id</td>
+                <td>@i.Name</td>
+                <td>@i.Phone</td>
+                <td>@i.Address</td>
+                <td>@i.DateOfOrderStart</td>
+                <td><a class="btn btn-primary" href="@Url.Action("Details","Orders",new { id = i.Id })">Детайли</a> <a class="btn btn-success" href="@Url.Action("Approve","Orders",new { id = i.Id })">Одобри!</a>
+                    <a class="btn btn-danger" href="@Url.Action("DeleteOrder", "Orders", new { id = i.Id })" onclick="return confirm('Сигурен ли си?')"><i class="fa fa-trash-o"></i></a></td>
+            </tr>
+        }
+    </tbody>
+</table>

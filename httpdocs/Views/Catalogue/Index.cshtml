@@ -1,0 +1,56 @@
+﻿@model IEnumerable<AutoPartsMVC.Models.Product>
+
+@{
+    ViewBag.Title = AutoPartsMVC.Properties.Resources.Catalogue;
+}
+<div class="wrapper23">
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3" id="secondary-nav">
+                <h1 class="my-4 catalogueTitle">@AutoPartsMVC.Properties.Resources.Catalogue</h1>
+                <div class="list-group">
+                    @Html.Action("CatalogueMenu", "Shared")
+                </div>
+            </div>
+            <!-- /.col-lg-3 -->
+            <div class="col-lg-9">
+                <div class="row" id="products2">
+
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4 col-md-6 mb-4">
+
+                            <div class="card h-100">
+                                @if (Request.Cookies["LNG"]!=null && Request.Cookies["LNG"].Value.Equals("en"))
+                                {
+                                    <div class="card-special">Free Delivery!</div>
+                                }
+                                <a href="@Url.Action("Product","Catalogue",new { id = item.urlName })"><img class="card-img-top" src="~/Content/img/@item.ProductImageName" alt="ProductImage"></a>
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        <a href="@Url.Action("Product", "Catalogue", new { id = item.urlName })">@item.Name</a>
+                                    </h4>
+                                    <h5 class="price">@item.Price.ToString("0.00")@AutoPartsMVC.Properties.Resources.Currency</h5>
+                                    <p class="card-text">@if (item.Description == null)
+                                    { <span></span> }
+                                    else if (item.Description.Length >= 30)
+                                    { <span>@Html.Raw(item.Description.Substring(0, 30).Replace(Environment.NewLine, "<br/>"))</span> }
+                                    else
+                                    { <span>@Html.Raw(item.Description.Replace(Environment.NewLine, "<br/>"))</span> } ...</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <a href="@Url.Action("Product","Catalogue",new { id = item.urlName })" class="btn btn-primary customised">@AutoPartsMVC.Properties.Resources.LearnMore</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.col-lg-9 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>

@@ -1,0 +1,78 @@
+﻿@model AutoPartsMVC.Models.RepresentProduct
+    @{ 
+        ViewBag.Title = Model.Product.Name;
+    }
+<div class="wrapper23">
+   <!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3" id="secondary-nav">
+            <h1 class="my-4 catalogueTitle">@AutoPartsMVC.Properties.Resources.Catalogue</h1>
+            <div class="list-group">
+                @Html.Action("CatalogueMenu", "Shared")
+            </div>
+        </div>
+        <!-- /.col-lg-3 -->
+        <div class="col-lg-9">
+
+                <div class="row" id="products2" style="display:none"></div>
+                <div class="card mt-4" id="product-item">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img class="card-img-top img-fluid" src="~/Content/img/@Model.Product.ProductImageName" style="padding-top:15px;max-height:300px;width:auto;margin:auto" />
+                        </div>
+                        @foreach (var pic in Model.Pictures)
+                        {
+                            <div class="mySlides fade">
+                                <img class="card-img-top img-fluid" src="~/Content/img/@pic" style="padding-top:15px;max-height:300px;width:auto;margin:auto" />
+                            </div>    
+                        }
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                    <div class="card-body" id="product-@Model.Product.Id">
+                        <h3 class="card-title">@Model.Product.Name</h3>
+                        <h4>@Model.Product.Price.ToString("0.00")@AutoPartsMVC.Properties.Resources.Currency</h4>
+                        <p class="card-text">@Html.Raw(Model.Product.Description.Replace(Environment.NewLine, "<br/>"))</p>
+                        <div class="form-inline">
+                            <input class="form-control" id="quantityOfProduct" onchange="checkIfInvalidData()" style="margin:2px" type="number" min="1" max="1000" value="1"/>
+                            <button class="btn btn-primary" style="margin:2px" onclick="addProduct(@Model.Product.Id)">@AutoPartsMVC.Properties.Resources.AddToCart</button>
+                        </div>
+                    </div>
+                </div>
+           <br />
+        </div>
+        <!-- /.col-lg-9 -->
+    </div>
+</div>
+<!-- /.container -->
+<script src="~/Scripts/addProductInCart.js"></script>
+
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+            slides[slideIndex - 1].style.opacity = "1"; 
+        }
+    </script>
+
+</div>

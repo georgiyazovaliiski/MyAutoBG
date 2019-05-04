@@ -1,0 +1,46 @@
+﻿@model IEnumerable<AutoPartsMVC.Models.Category>
+
+@{
+    ViewBag.Title = "Категории";
+}
+<div class="middle">
+    <h2>Категории</h2>
+
+    <p>
+        @Html.ActionLink("Създай нова", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Име
+            </th>
+            <th>
+                В категория
+            </th>
+            <th>
+                В главна категория
+            </th>
+            <th>Действия</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Редактирай", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Изтрий", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

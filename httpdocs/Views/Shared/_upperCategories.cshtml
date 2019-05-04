@@ -1,0 +1,7 @@
+﻿@model IEnumerable<AutoPartsMVC.Models.Category>
+
+@foreach (var cat in Model)
+{
+    <a href="javascript:showThirdly(@cat.Id)" class="list-group-item" data-parent="#category-@cat.SubCategoryId">@cat.Name[0].ToString().ToUpper()@cat.Name.Substring(1).ToLower()</a>
+}
+<script src="~/Scripts/menu.js"></script>

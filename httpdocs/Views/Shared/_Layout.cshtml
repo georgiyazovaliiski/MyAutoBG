@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | MyAutoBg</title>
+    <meta name="Description" content="MyAutoBg е компания за авточасти и автоаксесоари, предлагаща най-добри цени и качество!" />
+    <meta name="keywords" content="myautobg, myauto, автоаксесоари myautobg" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/vegas.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="~/Content/heroic-features.css" rel="stylesheet">
+    <link href="~/Content/animate.css" rel="stylesheet">
+    <link href="~/Content/bottom-menu.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+            <!--<div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>Html.ActionLink("About", "About", "Home")</li>
+                    <li>Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+                Html.Partial("_LoginPartial")
+            </div>-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" id="homebutton" href="@Url.Action("Index", "Home")"><!--<img src="~/Content/img/logo.png" id="top-logo"/> -->MyAutoBg</a>
+            <li class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="@Url.Action("Index", "Home")">@AutoPartsMVC.Properties.Resources.Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Catalogue", new { id = "" })">@AutoPartsMVC.Properties.Resources.Catalogue</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Contacts")">@AutoPartsMVC.Properties.Resources.Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart"></i> (@Html.Action("GetTotalCount", "Cart"))</a>
+                    </li>
+
+                    @Html.Partial("_LoginPartial")
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Change", "Language", new { LA = "bg" })"><img src="~/Content/img/bg2.png" class="nat-img" /></a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Change", "Language", new { LA = "en" })"><img src="~/Content/img/en2.png" class="nat-img" /></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Catalogue")"><img src="~/Content/img/bgpost.png" class="nat-img2" alt="български пощи" /></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" id="search-button-form" action="@Url.Action("Products", "Search")" method="get">
+
+                    <a class="nav-link changed animated bounceInRight" href="@Url.Action("Index", "Catalogue")"><i class="fa fa-phone" aria-hidden="true"></i> +359 876 689 449  |</a>
+
+                    <input class="mr-sm-2 form-control" name="searchTerm" type="text" placeholder="Search" id="search-bar" aria-label="Search"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search-button"><i class="fa fa-search"></i></button>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Jumbotron Header -->
+    <header class="jumbotron" id="jumbo">
+        <div id="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 animated bounceInDown" id="wholeTitleAndImage">
+                            <div id="car-sil"></div>
+                            <h1 id="titleBig2">MyAutoBg</h1>
+                            <!--<a href="#" class="btn btn-primary btn-lg customised">Каталог</a>-->
+                    </div>
+                    <div class="col-md-4" style="opacity:0">
+                        <p class="paratext">@AutoPartsMVC.Properties.Resources.FreeBGPosts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navigation -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="" id="bottom-menu">
+                    <ul class="bottom-dropdown-menu">
+                        <li><a href="@Url.Action("Index","Home")" id="home-button"><i class="fa fa-home"></i></a></li><!--
+                        -->@Html.Action("SharedBottomMenu","Shared")
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+        <div class="wrapper2">
+        @RenderBody()
+        </div><!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; MyAutoBg @DateTime.Now.Year</p>
+            </div>
+            <!-- /.container -->
+        </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/Scripts/jquery.min.js"></script>
+    <script src="~/Scripts/popper.min.js"></script>
+    <!--  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>-->
+    <script src="~/Scripts/vegas.js"></script>
+    <script src="~/Scripts/bottom-menu-script.js"></script>
+    <script src="~/Scripts/vegas-video.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿@model IEnumerable<AutoPartsMVC.Models.ProductFromClient>
+
+@{
+    ViewBag.Title = "Продукти - " + ViewBag.ApprovedOrNot;
+}
+<div class="middle">
+    <h2>Продукти - @ViewBag.ApprovedOrNot</h2>
+
+    <table class="table">
+        <tr>
+            <th>
+                Цена
+            </th>
+            <th>
+                Име
+            </th>
+            <th>
+                Закупено
+            </th>
+            <th>
+                Категория
+            </th>
+            <th>
+                Снимка
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price) лв.
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TimesBought) пъти
+                </td>
+                <td>
+                    От потребители
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductImageName)
+                </td>
+                <td>
+                    @if(item.Approved == false) { @Html.ActionLink("Одобри", "Approve", new { id = item.Id }) } @Html.ActionLink("Промени", "Edit", new { id = item.Id }) @Html.ActionLink("Снимки", "Pictures", new { id = item.Id }) @Html.ActionLink("Премахни", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

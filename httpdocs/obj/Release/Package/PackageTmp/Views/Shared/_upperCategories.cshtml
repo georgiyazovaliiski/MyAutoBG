@@ -1,0 +1,6 @@
+﻿@model IEnumerable<AutoPartsMVC.Models.Category>
+
+@foreach (var cat in Model)
+{
+    <a href="#" class="list-group-item" data-parent="#category-@cat.SubCategoryId">@cat.Name</a>
+}

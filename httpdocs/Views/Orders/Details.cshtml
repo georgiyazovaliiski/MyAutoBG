@@ -1,0 +1,33 @@
+﻿@model AutoPartsMVC.Models.OrderWithProducts
+<div class="container">
+    <div class="row">
+        <div class="col-md-3" style="border-right:1px solid #ff6a00; margin-bottom:40px">
+            <br />
+            <h5>Име: @Model.order.Name @Model.order.LastName</h5><br />
+            <h5>Телефон: @Model.order.Phone</h5><br />
+            <h5>Адрес: @Model.order.Address</h5><br />
+            <h5>Брой продукти: @Model.products.Count</h5><br />
+            <h5>Номер на поръчката: @Model.order.Id</h5><br />
+            <h5>Офис: @if (!Model.order.ContactAddress.ToString().Equals("")) { @Model.order.ContactAddress }</h5><br />
+            <h5>Крайна цена в лева: @Model.products.Sum(a => a.Value * a.Key.Price) лв.</h5><br />
+            <h5>Крайна цена в €: @Model.products.Sum(a => a.Value * a.Key.PriceEN)€ </h5><br />
+        </div>
+        <div class="col-md-9">
+            <br />
+            <div class="row">
+                @foreach (var owp in Model.products)
+                {
+                    <div class="col-md-6">
+                        <p><span>Име на продукта: <br /><span class="highlighted">@owp.Key.Name</span></span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><span>Брой: <br /><span class="highlighted">@owp.Value</span></span></p>
+                    </div>
+                }
+            </div>
+            <br />
+        </div>
+        <br />
+        <br />
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@model List<AutoPartsMVC.Models.Product>
+<div class="col-md-12">
+    <h1 class="product-header"><span>Промоции</span></h1><br>
+</div>
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+<div class="col-lg-3 col-md-6 mb-4">
+    <div class="card">
+        <img class="card-img-top" src="~/Content/img/@item.ProductImageName" alt="">
+        <div class="card-body">
+            <h4 class="card-title">@item.Name <span class="price promo">ПРОМО</span></h4>
+            <p class="card-text"></p>
+        </div>
+        <div class="card-footer">
+            <a href="#" class="btn btn-primary customised">Разбери повече!</a>
+        </div>
+    </div>
+</div>
+    }
+}
+@if (Model == null)
+{
+    <h1>maika ti deba</h1>
+}

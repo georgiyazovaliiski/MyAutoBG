@@ -1,0 +1,22 @@
+﻿@model List<AutoPartsMVC.Models.Product>
+<div class="col-md-12">
+    <h1 class="product-header"><span>@AutoPartsMVC.Properties.Resources.Promos</span></h1><br>
+</div>
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+<div class="col-lg-4 col-md-6 mb-4">
+    <div class="card animated bounceIn">
+        <a href="@Url.Action("Product","Catalogue",new { id = item.urlName })"><img class="card-img-top" src="~/Content/img/@item.ProductImageName" alt=""></a>
+        <div class="card-body">
+            <h4 class="card-title">@item.Name <span class="price promo">@AutoPartsMVC.Properties.Resources.Promo</span></h4>
+            <p class="card-text"></p>
+        </div>
+        <div class="card-footer">
+            <a href="@Url.Action("Product","Catalogue",new { id = item.urlName })" class="btn btn-primary customised">@AutoPartsMVC.Properties.Resources.LearnMore</a>
+        </div>
+    </div>
+</div>
+    }
+}

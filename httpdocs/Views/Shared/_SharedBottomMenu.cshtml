@@ -1,0 +1,40 @@
+﻿@model AutoPartsMVC.Models.BottomMenuModel
+
+@foreach (var cat in Model.mainCategories)
+{var subCats = Model.subCategories[cat.Id];<!----><li class="menu-item">
+    @if (cat.Id != 5)
+    {
+        <a href="#">@cat.Name <i class="fa fa-caret-down"></i></a>
+    }
+    else
+    {
+        <a style="background:#FF8C1A; color:white" href="@Url.Action("Category", "Catalogue", new { id = cat.UrlName })">@cat.Name</a>
+    }
+    @if (subCats.Count != 0)
+    {
+     <div class="options">
+          <div class="row">@foreach (var subCat in subCats)
+              {
+                  var subsubCats = new List<AutoPartsMVC.Models.Category>();
+                  var division = 12;
+                  if (Model.subsubCategories.ContainsKey(subCat.Id))
+                  { subsubCats = Model.subsubCategories[subCat.Id];
+                  }
+                  division = division / subCats.Count;
+              <div style="">
+                    <ul>
+                        <li class="category">
+                            <h1 class="display-4" style="font-size:0.9em"><span><i class="fa fa-gear"></i> @subCat.Name</span></h1>
+                        </li>
+                        
+                        @foreach(var subsubCat in subsubCats)
+                        {
+                            <li><a href="@Url.Action("Category", "Catalogue", new { id = subsubCat.UrlName })"><i class="fa fa-angle-right"></i> @subsubCat.Name</a></li>
+                        }
+                    </ul>
+                </div>
+              }
+            </div>
+        </div>
+        }
+    </li>}

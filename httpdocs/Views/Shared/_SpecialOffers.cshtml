@@ -1,0 +1,19 @@
+﻿@model List<AutoPartsMVC.Models.Product>
+    <br />
+
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <div class="card">
+                <a href="@Url.Action("Product","Catalogue",new { id = item.urlName })"><img class="card-img-top" src="~/Content/img/@item.ProductImageName" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">@item.Name <span class="price promo">@AutoPartsMVC.Properties.Resources.Promo</span></h4>
+                    <p class="card-text">@item.Description</p>
+                </div>
+                <div class="card-footer">
+                    <a href="@Url.Action("Product","Catalogue",new { id = item.urlName })" class="btn btn-primary right-section-button"><span>@AutoPartsMVC.Properties.Resources.TakeALook</span></a>
+                </div>
+            </div><br>
+        }
+    }
